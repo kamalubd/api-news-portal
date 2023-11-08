@@ -2,3 +2,8 @@
     padding: 10px;
     align-items: center;
 } */
+
+.author-image {
+    width: 50px;
+    border-radius: 50%;
+}
