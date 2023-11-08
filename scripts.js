@@ -45,14 +45,16 @@ function newsData(newsData){
               <h5 class="card-title">${news.title}</h5>
               <p class="card-text">${(news.details).slice(0, 200)}...</p>
               <p><img src="${news.author.img}" class="author-image" alt="..."></p>
-              <div><p class="card-text"><small class="text-muted">${news.author.
+              <div><p class="card-text"><small>${news.author.
                 name}</small></p>
-                <p><small class="text-muted">${news.author.published_date}</p>
+                <p><small>${news.author.published_date}</p>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-arrow-right" style="color: #2159ba;"></i>
                 </div>
-            </div>
-          </div>
-        </div>
-      </div>`
+                </div>            
+                </div>
+                </div>
+                </div>`
 
       thumbCardField.appendChild(div);
 
